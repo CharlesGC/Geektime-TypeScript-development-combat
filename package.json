@@ -1,0 +1,31 @@
+{
+  "name": "Geektime-TypeScript-development-combat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lesson4/src/index.ts",
+  "scripts": {
+    "start": "webpack server --mode development --config ./lesson4/build/webpack.config.js",
+    "build": "webpack --mode production --config ./lesson4/build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesGC/Geektime-TypeScript-development-combat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesGC/Geektime-TypeScript-development-combat/issues"
+  },
+  "homepage": "https://github.com/CharlesGC/Geektime-TypeScript-development-combat#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}

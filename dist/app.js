@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.getElementById("app");e&&(e.innerHTML="Hello World")})();
