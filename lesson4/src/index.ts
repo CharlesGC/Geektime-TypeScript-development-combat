@@ -1,8 +1,8 @@
 // 冒号是类型注解
-let hello: string = 'Hello World';
+let lesson4: string = 'Hello World';
 
-let node = document.getElementById('app');
+let lesson4Node = document.getElementById('app');
 
-if (node) {
-    node.innerHTML = hello;
+if (lesson4Node) {
+    lesson4Node.innerHTML = lesson4;
 }

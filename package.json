@@ -4,8 +4,8 @@
   "description": "",
   "main": "./lesson4/src/index.ts",
   "scripts": {
-    "start": "webpack server --mode development --config ./lesson4/build/webpack.config.js",
-    "build": "webpack --mode production --config ./lesson4/build/webpack.config.js"
+    "start": "webpack server --mode development --config ./build/webpack.config.js",
+    "build": "webpack --mode production --config ./build/webpack.config.js"
   },
   "repository": {
     "type": "git",
