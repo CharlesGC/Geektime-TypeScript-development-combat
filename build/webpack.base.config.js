@@ -4,13 +4,13 @@
  * @Author: Charles Guo
  * @Date: 2021-08-18 00:45:21
  * @LastEditors: Charles Guo
- * @LastEditTime: 2021-08-21 17:48:19
+ * @LastEditTime: 2021-08-22 14:54:33
  */
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    entry: path.join(__dirname,'../', 'lesson6/src/index.ts'),
+    entry: path.join(__dirname,'../', 'lesson7/src/index.ts'),
     output: {
         filename: 'app.js'
     },
@@ -30,7 +30,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.join(__dirname,'../', 'lesson6/tpl/index.html')
+            template: path.join(__dirname,'../', 'tpl/index.html')
         })
     ]
 }
